@@ -81,12 +81,12 @@
 			<div class="collapse navbar-collapse" id="my-navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="index#home">Accueil</a></li>
+					<li><a href="index#a-propos">À propos</a></li>
 					<li><a href="index#achat">Achat</a></li>
 					<li><a href="index#reparation">Réparation</a></li>
 					<li><a href="index#location">Location</a></li>
-					<li><a href="index#evenements">Événements</a></li>
 					<li><a href="index#sport">Sport</a></li>
-					<li><a href="index#a-propos">À propos</a></li>
+					<li><a href="index#evenements">Événements</a></li>
 					<li><a href="index#sponsors">Sponsors</a></li>
 					<li><a href="index#contact">Contact</a></li>
 				</ul>
@@ -114,7 +114,7 @@
 
 						<h1>VÉLOTOUR</h1>
 						<p class="sub-heading">LE MONDE DU VÉLO DANS L'EUROMÉTROPOLE DE STRASBOURG</p>
-						<p><a href="index#achat" class="btn btn-trans btn-md">Découvrir VéloTour</a></p>
+						<p><a href="#a-propos" class="btn btn-trans btn-md">Découvrir VéloTour</a></p>
 					</div>
 				</div>
 
@@ -122,36 +122,33 @@
 		</div> <!-- /end of .container -->
 	</div>
 </div>
-<!-- =========================
-     ABOUT US 
-============================== -->
-<section class="about-us" id="achat">
+
+<section class="about-us" id="a-propos">
 	<div class="container">
 		<div class="row">
 			<!-- SECTION HEAD -->
-			<div class="mb-30 mb-45 col-md-8">
+			<div class="mb-30 mb-45 col-md-12">
 				<header class="section-heading">
-					<h2 class="title-text">Acheter un vélo</h2>
+					<h2 class="title-text">Qui sommes-nous ?</h2>
 				</header> <!-- /.section-heading -->
 				
-				<p>Trail Bike was stablised in 1998 at Newyork City by four friends Chris, Juisa, Alleja and Alejandro. Now it is the biggest biking club in Newyork and top 5 in USA with around 5000 active members. We arrange numbers of events and programs throughout the years to raise awerness about green city, save tracking and many more. We have a large vision to make a revolution to stablish green city and making beautiful and comfortable trails for mountain biker throughout the country. </p>
+				<p>Vélotour est une association d'acteurs professionnels qui a pour objectif la promotion de l'utilisation du vélo comme moyen de déplacement à Strasbourg et l'organisation de courses, compétitions et sorties à vélo pour tout public. Par le biais de nos partenaires, nous vous proposons des services d'achat, de location et de réparation de vélos dans toute la métropole.</p>
+				<p>VéloTour n'est pas affilié à la ville et aux collectivités de la ville de Strasbourg.</p>
 			</div> <!-- /END SECTION HEAD -->
 
 			<!-- SECTION BODY -->
-			<div class="col-md-4">
-				<img src="images/achat.jpg" alt="About Mountain Biking" class="img-responsive img-circle">
-				</div>
-			</div> <!-- /END SECTION BODY -->
 		</div>
 	</div>
 </section>
 
-<section class="subscription">
+
+<section class="subscription" id="achat">
 	<div class="container">
 		<div class="row">
 			<!-- SECTION HEAD -->
 			<header class="section-heading text-center">
-				<h2 class="title-text">Les bons plans</h2>
+				<h2 class="title-text">Acheter un vélo</h2>
+				<p>Pour vous aider dans l'achat de votre vélo, des équipements de sécurité ou des accessoires, nous vous proposons une liste de boutiques partenaires ainsi qu'un guide pratique pour vous aider à choisir. Si vous avez des questions ou un besoin spécifique, contactez-nous.</p>
 			</header> <!-- /.section-heading -->
 		</div>
 		<div class="row">
@@ -230,7 +227,7 @@
 					<h2 class="title-text">Réparer un vélo</h2>
 				</header> <!-- /.section-heading -->
 				
-				<p>Trail Bike was stablised in 1998 at Newyork City by four friends Chris, Juisa, Alleja and Alejandro. Now it is the biggest biking club in Newyork and top 5 in USA with around 5000 active members. We arrange numbers of events and programs throughout the years to raise awerness about green city, save tracking and many more. We have a large vision to make a revolution to stablish green city and making beautiful and comfortable trails for mountain biker throughout the country. </p>
+				<p>Vous avez la possibilité de louer un vélo pour toutes les activités : déplacement, courses, sorties nature. N'hésitez pas à télécharger notre guide de location ainsi que la liste des partenaires proposant un service de location en libre-service ou auprès d'un loueur.</p>
 			</div> <!-- /END SECTION HEAD -->
 
 			<!-- SECTION BODY -->
@@ -247,7 +244,7 @@
 					<h2 class="title-text">Louer un vélo</h2>
 				</header> <!-- /.section-heading -->
 				
-				<p>Trail Bike was stablised in 1998 at Newyork City by four friends Chris, Juisa, Alleja and Alejandro. Now it is the biggest biking club in Newyork and top 5 in USA with around 5000 active members. We arrange numbers of events and programs throughout the years to raise awerness about green city, save tracking and many more. We have a large vision to make a revolution to stablish green city and making beautiful and comfortable trails for mountain biker throughout the country. </p>
+				<p>Un problème de frein, de dérailleur ? De la casse ? Nos partenaires vous proposent un service de réparation, un service d'assistance du lundi au samedi et animent des ateliers de réparation toute l'année dans différents lieux.</p>
 			</div> <!-- /END SECTION HEAD -->
 
 			<!-- SECTION BODY -->
@@ -260,539 +257,62 @@
 </section>
 
 
-<!--
-<section class="bike-trail" id="bike-trail">
-	<div class="container">
-		<div class="row">
-			<div class="mb-30 mb-45 col-md-3">
-				<header class="section-heading">
-					<h2 class="title-text">Bike Trail</h2>
-				</header> 
-
-				<p>Trail Bike hosts regular group rides on the mountain throught the years, mostly iduring the warmers month. We make our own trail by diging and we also use the natural trail on the mountain.</p>
-			</div> 
-
-			<div class="col-md-9">
-				<div class="row">
-					<article class="mb-30 col-sm-4">
-						<header class="article-heading">
-							<h4 class="title-text"><a href="blog-single.html">Velory Hill Trail</a></h4>
-						</header>
-
-						<p>In the velory hill of Newyork we ride our bike about 15 km from hill point to water point with some breaks. It is the most wonderful place with lots of beauty.</p>
-
-						<footer class="more-info">
-							<a href="contents/bike-map-1.html" class="lightbox" data-lightbox-type="ajax">
-								<img src="images/thumbnails/map-1.jpg" alt="Map" class="img-responsive">
-							</a>
-							<p><small>Click on the map to see full trail</small></p>
-						</footer>
-					</article>
-
-					<article class="mb-30 col-sm-4">
-						<header class="article-heading">
-							<h4 class="title-text"><a href="blog-single.html">Velory Hill Trail</a></h4>
-						</header>
-
-						<p>In the velory hill of Newyork we ride our bike about 15 km from hill point to water point with some breaks. It is the most wonderful place with lots of beauty.</p>
-
-						<footer class="more-info row">
-							<div class="col-xs-6">
-								<a href="contents/bike-map-2.html" class="lightbox" data-lightbox-type="ajax">
-									<img src="images/thumbnails/map-2.jpg" alt="Map" class="img-responsive">
-								</a>
-								<p><small>Click on the map to see full trail</small></p>
-							</div>
-
-							<div class="col-xs-6">
-								<a href="https://www.youtube.com/9xlqKl9or-s" class="lightbox" data-lightbox-type="iframe">
-									<img src="images/thumbnails/vid.jpg" alt="Video" class="img-responsive">
-								</a>
-								<p><small>Watch the video of this trail</small></p>
-							</div>
-						</footer>
-					</article>
-
-					<article class="mb-30 col-sm-4">
-						<header class="article-heading">
-							<h4 class="title-text"><a href="blog-single.html">Velory Hill Trail</a></h4>
-						</header>
-
-						<p>In the velory hill of Newyork we ride our bike about 15 km from hill point to water point with some breaks. It is the most wonderful place with lots of beauty.</p>
-
-						<footer class="more-info">
-							<a href="contents/bike-map-3.html" class="lightbox" data-lightbox-type="ajax">
-								<img src="images/thumbnails/map-1.jpg" alt="Map" class="img-responsive">
-							</a>
-							<p><small>Click on the map to see full trail</small></p>
-						</footer>
-					</article>
-				</div>
-			</div
-		</div>
-	</div>
-</section>
-
--->
-
-<!--
-<section class="success-story">
+<section class="success-story" id="sport">
 	<div class="container">
 		<div class="row">
 			<header class="section-heading text-center">
-				<h2 class="title-text">Ouha</h2>
-				<p>From the beginning of the club, we make numbers of success story in the national and also
-					international level. We feel pround of to be a part of this comminty.</p>
+				<h2 class="title-text">Sport & compétitions</h2>
+				<p>Tour de Strasbourg, courses pas étapes, seul ou à plusieurs, testez votre rapidité et votre endurance à travers de nombreuses courses organisez par la ville et diverses structures dans le domaine du vélo. Découvrez depuis la section "événements" toutes les épreuves à venir !</p>
+
 			</header> 
 		</div>
-		<div class="row">
-			<div class="col-md-4">
-				<div class="single-story text-center">
-					<div class="success-title">
-						<i class="fa fa-angellist"></i>
-						<h4>International Trophy</h4>
-					</div>
-					<p>From the beginning of the club, we make numbersof success story in the national and alsointernational level. </p>
-					<div class="full-story">
-						<a href="index#">+</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="single-story text-center">
-					<div class="success-title">
-						<i class="fa fa-bell-o"></i>
-						<h4>International Trophy</h4>
-					</div>
-					<p>From the beginning of the club, we make numbersof success story in the national and alsointernational level. </p>
-					<div class="full-story">
-						<a href="index#">+</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="single-story text-center">
-					<div class="success-title">
-						<i class="fa fa-heart"></i>
-						<h4>International Trophy</h4>
-					</div>
-					<p>From the beginning of the club, we make numbersof success story in the national and alsointernational level. </p>
-					<div class="full-story">
-						<a href="index#">+</a>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
 </section>
 
--->
 
-<!--
-<section class="events" id="events">
+<section class="blogs" id="evenements">
 	<div class="container">
 		<div class="row">
-			<div class="mb-30 mb-45 col-md-3">
+			<div class="mb-30 mb-45 col-md-4">
 				<header class="section-heading">
-					<h2 class="title-text">Events</h2>
-				</header>
+					<h2 class="title-text">Les événements</h2>
+				</header> 
 
-				<p>Through out the year we arrange lots of ride and cycling events for pressional and also for novice. Most of our events are running from May to September in the summer time. We have few events in the time winter depending on weather.</p>
-			</div>
+				<p>Participez aux nombreux événements autout du vélo dans l'eurométropole de Strasbourg</p>
+			</div> 
 
-			<div class="col-md-9">
+			<div class="col-md-8">
 				<div class="row">
-					<article class="mb-30 col-sm-4">
-						<header class="article-heading">
-							<div class="media">
-								<div class="media-left">
-									<p class="meta-calander" title="12 November, 2014">12</p>
-								</div>
-
-								<div class="media-body">
-									<h4 class="title-text"><a href="blog-single.html">Season Break Bike Racing Guru</a></h4>
-								</div>
-							</div>
-
-							<div class="meta-data">
-								<span class="meta-cat"><i class="fa fa-map-marker"></i> Clinton Hill Point</span>
-								<span class="meta-time"><i class="fa fa-clock-o"></i> 9am to 3pm</span>
-							</div>
-						</header>
-
-						<figure class="hover-img">
-							<img src="images/thumbnails/event-01.jpg" alt="Events" class="img-responsive">
-
-							<div class="img-hover-content">
-		 						<a href="blog-single.html" class="link-popup">
-		 							<i class="icon-inside fa fa-link"></i>
-		 						</a>
-		 					</div>
-						</figure>
-
-						<p>Through out the year we arrange lots of ride and cycling events for pressional and also for novice.</p>
-
-						<footer>
-							<a href="blog-single.html" class="btn btn-md btn-trans">Learn More</a>
-						</footer>
-					</article>
 
 					<article class="mb-30 col-sm-4">
 						<header class="article-heading">
 							<div class="media">
 								<div class="media-left">
-									<p class="meta-calander" title="12 November, 2014">12</p>
+									<p class="meta-calander" title="12 November, 2014">01</p>
 								</div>
 
 								<div class="media-body">
-									<h4 class="title-text"><a href="blog-single.html">Joint People Biker Hero</a></h4>
+									<h4 class="title-text">Titre de l'événement</h4>
 								</div>
 							</div>
 
 							<div class="meta-data">
-								<span class="meta-cat"><i class="fa fa-map-marker"></i> Clinton Hill Point</span>
-								<span class="meta-time"><i class="fa fa-clock-o"></i> 9am to 3pm</span>
+								<span class="meta-cat"><i class="fa fa-map-marker"></i> Strasbourg</span>
+								<span class="meta-time"><i class="fa fa-clock-o"></i> 28/09/2017</span>
 							</div>
 						</header>
 
 						<figure class="hover-img">
-							<img src="images/thumbnails/event-02.jpg" alt="Events" class="img-responsive">
-
-							<div class="img-hover-content">
-		 						<a href="blog-single.html" class="link-popup">
-		 							<i class="icon-inside fa fa-link"></i>
-		 						</a>
-		 					</div>
+							<img src="images/stras-velo.jpg" alt="Events" class="img-responsive">
 						</figure>
 
-						<p>Through out the year we arrange lots of ride and cycling events for pressional and also for novice.</p>
-
-						<footer>
-							<a href="blog-single.html" class="btn btn-md btn-trans">Learn More</a>
-						</footer>
-					</article>
-
-					<article class="mb-30 col-sm-4">
-						<header class="article-heading">
-							<div class="media">
-								<div class="media-left">
-									<p class="meta-calander" title="12 November, 2014">12</p>
-								</div>
-
-								<div class="media-body">
-									<h4 class="title-text"><a href="blog-single.html">Hill Gadiator of  the year</a></h4>
-								</div>
-							</div>
-
-							<div class="meta-data">
-								<span class="meta-cat"><i class="fa fa-map-marker"></i> Clinton Hill Point</span>
-								<span class="meta-time"><i class="fa fa-clock-o"></i> 9am to 3pm</span>
-							</div>
-						</header>
-
-						<figure class="hover-img">
-							<img src="images/thumbnails/event-03.jpg" alt="Events" class="img-responsive">
-
-							<div class="img-hover-content">
-		 						<a href="blog-single.html" class="link-popup">
-		 							<i class="icon-inside fa fa-link"></i>
-		 						</a>
-		 					</div>
-						</figure>
-
-						<p>Through out the year we arrange lots of ride and cycling events for pressional and also for novice.</p>
-
-						<footer>
-							<a href="blog-single.html" class="btn btn-md btn-trans">Learn More</a>
-						</footer>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat dolor nibh, nec ultrices orci viverra tempor. Nam suscipit nisl a purus nullam.</p>
 					</article>
 				</div>
 			</div> 
 		</div>
 	</div>
 </section>
-
--->
-<!--
-<section class="gallery" id="gallery">
-	<div class="container">
-		<div class="row">
-			<div class="mb-30 mb-45 col-md-3">
-				<header class="section-heading">
-					<h2 class="title-text">Gallery</h2>
-				</header> 
-
-				<p>Lost of memorable things happed during our programs and events. Our volunteer photograpgers capture those beautiful moments with cameras. In this section you’ll find many photos of our previous programs and events. </p>
-			</div> 
-			<div class="col-md-9">
-				<div class="filter-buttons">
-					<button class="btn btn-sm btn-trans filter" data-filter="all">All</button>
-					<button class="btn btn-sm btn-trans filter" data-filter=".summer">Summer</button>
-					<button class="btn btn-sm btn-trans filter" data-filter=".winter">Winter</button>
-				</div>
-				<div class="row gallery-items">
-					<div class="mix summer item col-sm-4 col-xs-6">
-						<a href="images/gallery/1.jpg" class="lightbox">
-							<img src="images/gallery/1-thumb.jpg" alt="Thumb" class="img-responsive">
-							<i class="fa fa-search"></i>
-						</a>
-					</div>
-
-					<div class="mix winter item col-sm-4 col-xs-6">
-						<a href="images/gallery/2.jpg" class="lightbox">
-							<img src="images/gallery/2-thumb.jpg" alt="Thumb" class="img-responsive">
-							<i class="fa fa-search"></i>
-						</a>
-					</div>
-
-					<div class="mix summer item col-sm-4 col-xs-6">
-						<a href="images/gallery/3.jpg" class="lightbox">
-							<img src="images/gallery/3-thumb.jpg" alt="Thumb" class="img-responsive">
-							<i class="fa fa-search"></i>
-						</a>
-					</div>
-
-					<div class="mix summer item col-sm-4 col-xs-6">
-						<a href="images/gallery/4.jpg" class="lightbox">
-							<img src="images/gallery/4-thumb.jpg" alt="Thumb" class="img-responsive">
-							<i class="fa fa-search"></i>
-						</a>
-					</div>
-
-					<div class="mix winter item col-sm-4 col-xs-6">
-						<a href="images/gallery/5.jpg" class="lightbox">
-							<img src="images/gallery/5-thumb.jpg" alt="Thumb" class="img-responsive">
-							<i class="fa fa-search"></i>
-						</a>
-					</div>
-
-					<div class="mix summer item col-sm-4 col-xs-6">
-						<a href="images/gallery/6.jpg" class="lightbox">
-							<img src="images/gallery/6-thumb.jpg" alt="Thumb" class="img-responsive">
-							<i class="fa fa-search"></i>
-						</a>
-					</div>
-				</div>
-			</div> 
-		</div>
-	</div>
-</section>
-
--->
-
-
-<!--
-<section class="our-team" id="our-team">
-	<div class="container">
-		<div class="row">
-			<div class="mb-30 mb-45 col-md-3">
-				<header class="section-heading">
-					<h2 class="title-text">Our Team</h2>
-				</header> 
-
-				<p>From the begning of this club the people who are working so hard to esatblish the one the biggest cycling club in USA are never forgotten. Their love, affection and hard working make this club beautiful, energetic and successful.</p>
-			</div> 
-
-			<div class="col-md-9">
-				<div class="mb-30 owl-carousel controls-right">
-					<div class="item">
-						<figure class="hover-element">
-							<img src="images/thumbnails/team-01.jpg" alt="Team Member" class="img-responsive">
-
-							<figcaption class="hover-content element-sm">
-								<h5>Robert Chamber <span>| Trainer</span></h5>
-								<div class="wrap">
-									<p>Robert Chamber is professional is a five time  mountain biking champion through 2001 to 2006. Robert Chamber is a very joyful, energetic,  little bit comedian.</p>
-
-									<p><strong>Follow him on</strong></p>
-
-									<ul class="social">
-										<li><a href="index#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="index#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="index#"><i class="fa fa-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-
-					<div class="item">
-						<figure class="hover-element">
-							<img src="images/thumbnails/team-02.jpg" alt="Team Member" class="img-responsive">
-
-							<figcaption class="hover-content element-sm">
-								<h5>John Doe <span>| Trainer</span></h5>
-								<div class="wrap">
-									<p>John Doe is professional is a five time  mountain biking champion through 2001 to 2006. John Doe is a very joyful, energetic,  little bit comedian.</p>
-
-									<p><strong>Follow him on</strong></p>
-									
-									<ul class="social">
-										<li><a href="index#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="index#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="index#"><i class="fa fa-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-
-					<div class="item">
-						<figure class="hover-element">
-							<img src="images/thumbnails/team-03.jpg" alt="Team Member" class="img-responsive">
-
-							<figcaption class="hover-content element-sm">
-								<h5>Robert Chamber <span>| Trainer</span></h5>
-								<div class="wrap">
-									<p>Robert Chamber is professional is a five time  mountain biking champion through 2001 to 2006. Robert Chamber is a very joyful, energetic,  little bit comedian.</p>
-
-									<p><strong>Follow him on</strong></p>
-									
-									<ul class="social">
-										<li><a href="index#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="index#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="index#"><i class="fa fa-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-
-					<div class="item">
-						<figure class="hover-element">
-							<img src="images/thumbnails/team-01.jpg" alt="Team Member" class="img-responsive">
-
-							<figcaption class="hover-content element-sm">
-								<h5>Robert Chamber <span>| Trainer</span></h5>
-								<div class="wrap">
-									<p>Robert Chamber is professional is a five time  mountain biking champion through 2001 to 2006. Robert Chamber is a very joyful, energetic,  little bit comedian.</p>
-
-									<p><strong>Follow him on</strong></p>
-									
-									<ul class="social">
-										<li><a href="index#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="index#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="index#"><i class="fa fa-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-			</div> 
-		</div>
-	</div>
-</section>
-
--->
-
-
-
-<!--
-<section class="blogs" id="blogs">
-	<div class="container">
-		<div class="row">
-			<div class="mb-30 mb-45 col-md-3">
-				<header class="section-heading">
-					<h2 class="title-text">Our Blog</h2>
-				</header> 
-
-				<p>Through out the year we arrange lots of ride and cycling events for pressional and also for novice. Most of our events are running from May to September in the summer time. We have few events in the time winter depending on weather.</p>
-			</div> 
-
-			<div class="col-md-9">
-				<div class="row">
-					<article class="mb-30 col-sm-4">
-						<header class="article-heading">
-							<h4 class="title-text"><a href="blog-single.html">Oswald Bikers Find out a Misterious Trail</a></h4>
-
-							<div class="meta-data">
-								<span class="meta-cat"><i class="fa fa-user"></i> John Martha Doe</span>
-								<span class="meta-time"><i class="fa fa-calendar"></i> June 12, 2015</span>
-							</div>
-						</header>
-
-						<figure class="hover-img">
-							<img src="images/thumbnails/blog-01.jpg" alt="Blog Thumnail" class="img-responsive">
-							<i class="blog-type-icon fa fa-picture-o"></i>
-
-							<div class="img-hover-content">
-		 						<a href="blog-single.html" class="link-popup">
-		 							<i class="icon-inside fa fa-link"></i>
-		 						</a>
-		 					</div>
-						</figure>
-
-						<p>Through out the year we arrange lots of ride and cycling events for pressional and also for novice.</p>
-
-						<footer>
-							<a href="blog-single.html" class="btn btn-md btn-trans">Read More</a>
-						</footer>
-					</article>
-
-					<article class="mb-30 col-sm-4">
-						<header class="article-heading">
-							<h4 class="title-text"><a href="blog-single.html">Season Break Bike Racing Guru</a></h4>
-
-							<div class="meta-data">
-								<span class="meta-cat"><i class="fa fa-user"></i> John Martha Doe</span>
-								<span class="meta-time"><i class="fa fa-calendar"></i> June 12, 2015</span>
-							</div>
-						</header>
-
-						<figure class="hover-img">
-							<img src="images/thumbnails/blog-02.jpg" alt="Blog Thumnail" class="img-responsive">
-							<i class="blog-type-icon fa fa-picture-o"></i>
-
-							<div class="img-hover-content">
-		 						<a href="blog-single.html" class="link-popup">
-		 							<i class="icon-inside fa fa-link"></i>
-		 						</a>
-		 					</div>
-						</figure>
-
-						<p>Through out the year we arrange lots of ride and cycling events for pressional and also for novice.</p>
-
-						<footer>
-							<a href="blog-single.html" class="btn btn-md btn-trans">Read More</a>
-						</footer>
-					</article>
-
-					<article class="mb-30 col-sm-4">
-						<header class="article-heading">
-							<h4 class="title-text"><a href="blog-single.html">Season Break Bike Racing Guru</a></h4>
-
-							<div class="meta-data">
-								<span class="meta-cat"><i class="fa fa-user"></i> John Martha Doe</span>
-								<span class="meta-time"><i class="fa fa-calendar"></i> June 12, 2015</span>
-							</div>
-						</header>
-
-						<figure class="hover-img">
-							<img src="images/thumbnails/blog-03.jpg" alt="Blog Thumnail" class="img-responsive">
-							<i class="blog-type-icon fa fa-picture-o"></i>
-
-							<div class="img-hover-content">
-		 						<a href="blog-single.html" class="link-popup">
-		 							<i class="icon-inside fa fa-link"></i>
-		 						</a>
-		 					</div>
-						</figure>
-
-						<p>Through out the year we arrange lots of ride and cycling events for pressional and also for novice.</p>
-
-						<footer>
-							<a href="blog-single.html" class="btn btn-md btn-trans">Read More</a>
-						</footer>
-					</article>
-				</div>
-			</div> 
-		</div>
-	</div>
-</section>
-
--->
-
 
 <section class="sponsors" id="sponsors">
 	<div class="container">
@@ -810,25 +330,25 @@
 			<div class="col-md-9">
 				<div class="row">
 					<div class="mb-30 col-md-4 col-sm-6">
-						<a href="index#" class="vam">
+						<a href="http://velhop.strasbourg.eu/" target="_blank" class="vam">
 							<div class="content">
-								<img src="https://upload.wikimedia.org/wikipedia/fr/thumb/d/d8/V%C3%A9lhop.svg/280px-V%C3%A9lhop.svg.png" alt="Codecanyon" style=" width: 100px; ">
+								<img src="https://upload.wikimedia.org/wikipedia/fr/thumb/d/d8/V%C3%A9lhop.svg/280px-V%C3%A9lhop.svg.png" alt="Codecanyon" style=" width: 120px; ">
 								<h4 class="title-text text-capitalize">Velhop</h4>
 							</div>
 						</a>
 					</div>
 
 					<div class="mb-30 col-md-4 col-sm-6">
-						<a href="index#" class="vam">
+						<a href="http://strasbourg.eu" target="_blank" class="vam">
 							<div class="content">
-								<img src="http://strossburi.eu/wp-content/uploads/2015/04/Logo_Strasbourg_new-750x400.png" alt="3docean" style=" width: 100px; ">
+								<img src="http://strossburi.eu/wp-content/uploads/2015/04/Logo_Strasbourg_new-750x400.png" alt="3docean" style=" width: 150px; ">
 								<h4 class="title-text text-capitalize">Ville de Strasbourg</h4>
 							</div>
 						</a>
 					</div>
 
 					<div class="mb-30 col-md-4 col-sm-6">
-						<a href="index#" class="vam">
+						<a href="http://sigstrasbourg.fr/" target="_blank" class="vam">
 							<div class="content">
 								<img src="http://www.elanchalon.com/wp-content/uploads/2016/03/logo_SIG_stras.png" alt="Photodune" style=" width: 60px; ">
 								<h4 class="title-text text-capitalize">SIG</h4>
@@ -837,10 +357,18 @@
 					</div>
 
 					<div class="mb-30 col-md-4 col-sm-6">
-						<a href="index#" class="vam">
+						<a href="https://www.voyages-sncf.com/" target="_blank" class="vam">
 							<div class="content">
 								<img src="https://upload.wikimedia.org/wikipedia/fr/archive/a/af/20130304190422%21Logo_SNCF.svg" alt="VideoHive" style=" width: 100px; ">
 								<h4 class="title-text text-capitalize">SNCF</h4>
+							</div>
+						</a>
+					</div>
+					<div class="mb-30 col-md-4 col-sm-6">
+						<a href="https://www.ffc.fr/" target="_blank" class="vam">
+							<div class="content">
+								<img src="https://www.ffc.fr/wp-content/themes/ffc/static/images/logo-v2.png" alt="VideoHive" style=" width: 160px; ">
+								<h4 class="title-text text-capitalize">FFC</h4>
 							</div>
 						</a>
 					</div>
@@ -851,23 +379,7 @@
 </section>
 
 
-<section class="about-us" id="a-propos">
-	<div class="container">
-		<div class="row">
-			<!-- SECTION HEAD -->
-			<div class="mb-30 mb-45 col-md-12">
-				<header class="section-heading">
-					<h2 class="title-text">Qui sommes-nous ?</h2>
-				</header> <!-- /.section-heading -->
-				
-				<p>VéloTour est une association bénévole réalisant la promotion et la diffusion d'informations autour de vélo dans l'eurométropole. Elle recense et partage l'ensemble des services gravitant autour du cyclisme loisir et sportif à Strasbourg.</p>
-				<p>VéloTour n'est pas affilié à la ville et aux collectivités de la ville de Strasbourg.</p>
-			</div> <!-- /END SECTION HEAD -->
 
-			<!-- SECTION BODY -->
-		</div>
-	</div>
-</section>
 
 
 <!-- =========================
@@ -926,39 +438,6 @@
 							<button class="btn btn-iconic btn-fill" type="submit"><i class="fa fa-paper-plane"></i> <span class="btn-md">Envoyer</span></button>
 						</div>
 					</form>
-
-					<?php
-//if "email" variable is filled out, send email
-  if (isset($_REQUEST['email']))  {
-  
-  //Email information
-  $admin_email = "contact@expandnetwork.fr";
-  $email = $_REQUEST['email'];
-  $subject = $_REQUEST['subject'];
-  $comment = $_REQUEST['comment'];
-  
-  //send email
-  mail($admin_email, "$subject", $comment, "From:" . $email);
-  
-  //Email response
-  echo "Thank you for contacting us!";
-  }
-  
-  //if "email" variable is not filled out, display the form
-  else  {
-?>
-
- <form method="post">
-  Email: <input name="email" type="text" /><br />
-  Subject: <input name="subject" type="text" /><br />
-  Message:<br />
-  <textarea name="comment" rows="15" cols="40"></textarea><br />
-  <input type="submit" value="Submit" />
-  </form>
-  
-<?php
-  }
-?>
 
 				</div>
 			</div> <!-- /END SECTION BODY -->
@@ -1037,15 +516,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-7">
+				<div class="col-md-7" style=" left: 11px; ">
 					<div class="footer-right">
 						<p>
 							L'univers du vélo dans l'eurométropole
 						</p>
 						<ul>
-							<li><a href="index#achat">Bons plans</a></li>
-							<li><a href="cgu.html">Mentions légales</a></li>
+							<li><a href="#achat">Bons plans</a></li>
+							<li><a href="cgu">Mentions légales</a></li>
 						</ul>
+
+						<!--
 						<div class="subscribe">
 							<form id="subscribe" role="form" novalidate="true">
 								<input type="email" id="subscribe-email"  name="searchdata" placeholder="Votre adresse email" />
@@ -1054,6 +535,7 @@
 								<span class="success-msg" id="subscribe">Envoyé !</span>
 							</form>
 						</div>
+						-->
 						<p class="copyright">&copy; 2017 VeloTour - By <a href="#">Wild Code School Strasbourg</a></p>
 					</div>
 				</div>
@@ -1081,6 +563,16 @@
 <script src="js/nivo-lightbox.min.js"></script>
 <script src="js/maplace-0.1.3.min.js"></script>
 <script src="js/custom.js"></script>
+
+<script type="text/javascript">
+	$(document).on('click', 'a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+});
+</script>
 
 
 </body>

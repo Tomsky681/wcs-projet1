@@ -965,8 +965,9 @@ article footer {
   margin-bottom: 0;
 }
 .vam:hover {
-  background: #fe4819;
+  background: transparent;
   border-color: #fe4819;
+  border-width: 2px;
 }
 /*
 |----------------------------------------------------------------------------
@@ -1320,7 +1321,7 @@ article footer {
 	position: absolute;
 	width: 45%;
 	height: 100%;
-	background: url("../images/thumbnails/blog-1-main.jpg") no-repeat;
+	background: url("../images/velo-bg.jpg") no-repeat;
 	left: 0;
 	background-size: cover;
 }
