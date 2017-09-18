@@ -73,22 +73,22 @@
 				</button>
 
 				<!-- TEMPLATE LOGO -->
-				<a class="navbar-brand" href="index-default.html#">
+				<a class="navbar-brand" href="index#">
 					<img src="images/logo.png" alt="Mountain Biking">
 				</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="my-navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="index-default.html#home">Accueil <span class="sr-only">(current)</span></a></li>
-					<li><a href="index-default.html#achat">Achat</a></li>
-					<li><a href="index-default.html#reparation">Réparation</a></li>
-					<li><a href="index-default.html#location">Location</a></li>
-					<li><a href="index-default.html#evenements">Événements</a></li>
-					<li><a href="index-default.html#sport">Sport</a></li>
-					<li><a href="index-default.html#a-propos">À propos</a></li>
-					<li><a href="index-default.html#sponsors">Sponsors</a></li>
-					<li><a href="index-default.html#contact">Contact</a></li>
+					<li><a href="index#home">Accueil</a></li>
+					<li><a href="index#achat">Achat</a></li>
+					<li><a href="index#reparation">Réparation</a></li>
+					<li><a href="index#location">Location</a></li>
+					<li><a href="index#evenements">Événements</a></li>
+					<li><a href="index#sport">Sport</a></li>
+					<li><a href="index#a-propos">À propos</a></li>
+					<li><a href="index#sponsors">Sponsors</a></li>
+					<li><a href="index#contact">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -108,13 +108,13 @@
 				<!-- ABOUT US LEFT HALF -->
 				<div class="col-md-4 base-background">
 					<div class="content">
-						<a class="template-brand" href="index-default.html#">
+						<a class="template-brand" href="index#">
 							<img src="images/logo.png" alt="Mountain Biking">
 						</a>
 
 						<h1>VÉLOTOUR</h1>
 						<p class="sub-heading">LE MONDE DU VÉLO DANS L'EUROMÉTROPOLE DE STRASBOURG</p>
-						<p><a href="index-default.html#" class="btn btn-trans btn-md">Découvrir VéloTour</a></p>
+						<p><a href="index#achat" class="btn btn-trans btn-md">Découvrir VéloTour</a></p>
 					</div>
 				</div>
 
@@ -166,7 +166,7 @@
 						<ul class="plan-features">
 						</ul>
 					</div>
-					<a href="#">Acheter</a>
+					<a target="_blank" href="https://www.decathlon.fr/C-819770-velos-6-a-12-ans/N-439637-type-de-velo-~vtc">Acheter</a>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6">
@@ -180,7 +180,7 @@
 						<ul class="plan-features">
 						</ul>
 					</div>
-					<a href="#">Acheter</a>
+					<a target="_blank" href="https://www.decathlon.fr/C-817233-vtt-randonnee">Acheter</a>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6">
@@ -195,7 +195,7 @@
 
 						</ul>
 					</div>
-					<a href="#">Acheter</a>
+					<a target="_blank" href="https://www.decathlon.fr/Acheter/v%C3%A9lo+route" >Acheter</a>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6">
@@ -209,7 +209,7 @@
 						<ul class="plan-features">
 						</ul>
 					</div>
-					<a href="#">Acheter</a>
+					<a target="_blank" href="https://www.decathlon.fr/C-819830-velos-ville-classiques-et-velos-ville-trekking">Acheter</a>
 				</div>
 			</div>
 		</div>
@@ -260,23 +260,18 @@
 </section>
 
 
-
-<!-- =========================
-     BIKE TRAILS 
-============================== -->
+<!--
 <section class="bike-trail" id="bike-trail">
 	<div class="container">
 		<div class="row">
-			<!-- SECTION HEAD -->
 			<div class="mb-30 mb-45 col-md-3">
 				<header class="section-heading">
 					<h2 class="title-text">Bike Trail</h2>
-				</header> <!-- /.section-heading -->
+				</header> 
 
 				<p>Trail Bike hosts regular group rides on the mountain throught the years, mostly iduring the warmers month. We make our own trail by diging and we also use the natural trail on the mountain.</p>
-			</div> <!-- /END SECTION HEAD -->
+			</div> 
 
-			<!-- SECTION BODY -->
 			<div class="col-md-9">
 				<div class="row">
 					<article class="mb-30 col-sm-4">
@@ -333,24 +328,22 @@
 						</footer>
 					</article>
 				</div>
-			</div> <!-- /END SECTION BODY -->
+			</div
 		</div>
 	</div>
 </section>
 
+-->
 
-<!-- =========================
-     SUCCESS STORY 
-============================== -->
+<!--
 <section class="success-story">
 	<div class="container">
 		<div class="row">
-			<!-- SECTION HEAD -->
 			<header class="section-heading text-center">
-				<h2 class="title-text">Success Story</h2>
+				<h2 class="title-text">Ouha</h2>
 				<p>From the beginning of the club, we make numbers of success story in the national and also
 					international level. We feel pround of to be a part of this comminty.</p>
-			</header> <!-- /.section-heading -->
+			</header> 
 		</div>
 		<div class="row">
 			<div class="col-md-4">
@@ -361,7 +354,7 @@
 					</div>
 					<p>From the beginning of the club, we make numbersof success story in the national and alsointernational level. </p>
 					<div class="full-story">
-						<a href="index-default.html#">+</a>
+						<a href="index#">+</a>
 					</div>
 				</div>
 			</div>
@@ -373,7 +366,7 @@
 					</div>
 					<p>From the beginning of the club, we make numbersof success story in the national and alsointernational level. </p>
 					<div class="full-story">
-						<a href="index-default.html#">+</a>
+						<a href="index#">+</a>
 					</div>
 				</div>
 			</div>
@@ -385,7 +378,7 @@
 					</div>
 					<p>From the beginning of the club, we make numbersof success story in the national and alsointernational level. </p>
 					<div class="full-story">
-						<a href="index-default.html#">+</a>
+						<a href="index#">+</a>
 					</div>
 				</div>
 			</div>
@@ -393,22 +386,20 @@
 	</div>
 </section>
 
-<!-- =========================
-     EVENTS 
-============================== -->
+-->
+
+<!--
 <section class="events" id="events">
 	<div class="container">
 		<div class="row">
-			<!-- SECTION HEAD -->
 			<div class="mb-30 mb-45 col-md-3">
 				<header class="section-heading">
 					<h2 class="title-text">Events</h2>
-				</header> <!-- /.section-heading -->
+				</header>
 
 				<p>Through out the year we arrange lots of ride and cycling events for pressional and also for novice. Most of our events are running from May to September in the summer time. We have few events in the time winter depending on weather.</p>
-			</div> <!-- /END SECTION HEAD -->
+			</div>
 
-			<!-- SECTION BODY -->
 			<div class="col-md-9">
 				<div class="row">
 					<article class="mb-30 col-sm-4">
@@ -516,37 +507,29 @@
 						</footer>
 					</article>
 				</div>
-			</div> <!-- /END SECTION BODY -->
+			</div> 
 		</div>
 	</div>
 </section>
 
-
-
-<!-- =========================
-     GALLERY 
-============================== -->
+-->
+<!--
 <section class="gallery" id="gallery">
 	<div class="container">
 		<div class="row">
-			<!-- SECTION HEAD -->
 			<div class="mb-30 mb-45 col-md-3">
 				<header class="section-heading">
 					<h2 class="title-text">Gallery</h2>
-				</header> <!-- /.section-heading -->
+				</header> 
 
 				<p>Lost of memorable things happed during our programs and events. Our volunteer photograpgers capture those beautiful moments with cameras. In this section you’ll find many photos of our previous programs and events. </p>
-			</div> <!-- /END SECTION HEAD -->
-
-			<!-- SECTION BODY -->
+			</div> 
 			<div class="col-md-9">
 				<div class="filter-buttons">
 					<button class="btn btn-sm btn-trans filter" data-filter="all">All</button>
 					<button class="btn btn-sm btn-trans filter" data-filter=".summer">Summer</button>
 					<button class="btn btn-sm btn-trans filter" data-filter=".winter">Winter</button>
 				</div>
-				<!-- /.filter-buttons -->
-
 				<div class="row gallery-items">
 					<div class="mix summer item col-sm-4 col-xs-6">
 						<a href="images/gallery/1.jpg" class="lightbox">
@@ -590,10 +573,12 @@
 						</a>
 					</div>
 				</div>
-			</div> <!-- /END SECTION BODY -->
+			</div> 
 		</div>
 	</div>
 </section>
+
+-->
 
 
 <!--
@@ -622,9 +607,9 @@
 									<p><strong>Follow him on</strong></p>
 
 									<ul class="social">
-										<li><a href="index-default.html#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="index-default.html#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="index-default.html#"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="index#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="index#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="index#"><i class="fa fa-linkedin"></i></a></li>
 									</ul>
 								</div>
 							</figcaption>
@@ -643,9 +628,9 @@
 									<p><strong>Follow him on</strong></p>
 									
 									<ul class="social">
-										<li><a href="index-default.html#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="index-default.html#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="index-default.html#"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="index#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="index#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="index#"><i class="fa fa-linkedin"></i></a></li>
 									</ul>
 								</div>
 							</figcaption>
@@ -664,9 +649,9 @@
 									<p><strong>Follow him on</strong></p>
 									
 									<ul class="social">
-										<li><a href="index-default.html#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="index-default.html#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="index-default.html#"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="index#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="index#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="index#"><i class="fa fa-linkedin"></i></a></li>
 									</ul>
 								</div>
 							</figcaption>
@@ -685,9 +670,9 @@
 									<p><strong>Follow him on</strong></p>
 									
 									<ul class="social">
-										<li><a href="index-default.html#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="index-default.html#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="index-default.html#"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="index#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="index#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="index#"><i class="fa fa-linkedin"></i></a></li>
 									</ul>
 								</div>
 							</figcaption>
@@ -825,46 +810,37 @@
 			<div class="col-md-9">
 				<div class="row">
 					<div class="mb-30 col-md-4 col-sm-6">
-						<a href="index-default.html#" class="vam">
+						<a href="index#" class="vam">
 							<div class="content">
-								<img src="images/icons/cc.png" alt="Codecanyon">
-								<h4 class="title-text text-capitalize">Codecanyon</h4>
+								<img src="https://upload.wikimedia.org/wikipedia/fr/thumb/d/d8/V%C3%A9lhop.svg/280px-V%C3%A9lhop.svg.png" alt="Codecanyon" style=" width: 100px; ">
+								<h4 class="title-text text-capitalize">Velhop</h4>
 							</div>
 						</a>
 					</div>
 
 					<div class="mb-30 col-md-4 col-sm-6">
-						<a href="index-default.html#" class="vam">
+						<a href="index#" class="vam">
 							<div class="content">
-								<img src="images/icons/3d.png" alt="3docean">
-								<h4 class="title-text text-capitalize">3docean</h4>
+								<img src="http://strossburi.eu/wp-content/uploads/2015/04/Logo_Strasbourg_new-750x400.png" alt="3docean" style=" width: 100px; ">
+								<h4 class="title-text text-capitalize">Ville de Strasbourg</h4>
 							</div>
 						</a>
 					</div>
 
 					<div class="mb-30 col-md-4 col-sm-6">
-						<a href="index-default.html#" class="vam">
+						<a href="index#" class="vam">
 							<div class="content">
-								<img src="images/icons/pd.png" alt="Photodune">
-								<h4 class="title-text text-capitalize">Photodune</h4>
+								<img src="http://www.elanchalon.com/wp-content/uploads/2016/03/logo_SIG_stras.png" alt="Photodune" style=" width: 60px; ">
+								<h4 class="title-text text-capitalize">SIG</h4>
 							</div>
 						</a>
 					</div>
 
 					<div class="mb-30 col-md-4 col-sm-6">
-						<a href="index-default.html#" class="vam">
+						<a href="index#" class="vam">
 							<div class="content">
-								<img src="images/icons/vh.png" alt="VideoHive">
-								<h4 class="title-text text-capitalize">VideoHive</h4>
-							</div>
-						</a>
-					</div>
-
-					<div class="mb-30 col-md-4 col-sm-6">
-						<a href="index-default.html#" class="vam">
-							<div class="content">
-								<img src="images/icons/gr.png" alt="Graphic River">
-								<h4 class="title-text text-capitalize">Graphic River</h4>
+								<img src="https://upload.wikimedia.org/wikipedia/fr/archive/a/af/20130304190422%21Logo_SNCF.svg" alt="VideoHive" style=" width: 100px; ">
+								<h4 class="title-text text-capitalize">SNCF</h4>
 							</div>
 						</a>
 					</div>
@@ -912,13 +888,15 @@
 			<!-- SECTION BODY -->
 			<div class="mb-30 col-md-9">
 				<div class="row contact-form">
-					<form id="contact-form" role="form">
+
+
+					<form id="contact-form" role="form" method="post">
 						<div class="col-md-6">
 							<div class="form-group">
 								<label class="sr-only" for="name">Nom complet</label>
 								<div class="input-group">
 									<div class="input-group-addon"><i class="fa fa-user"></i></div>
-							   	<input type="text" class="form-control" id="name" name="name" placeholder="Nom complet" required="required">
+							   	<input type="text" class="form-control" id="name" name="identite" placeholder="Nom complet" required="required">
 								</div>
 							</div>
 						</div>
@@ -935,16 +913,6 @@
 
 						<div class="col-md-12">
 							<div class="form-group">
-								<label class="sr-only" for="name">Téléphone (optionnel)</label>
-								<div class="input-group">
-									<div class="input-group-addon"><i class="fa fa-phone"></i></div>
-							   	<input type="tel" class="form-control" id="phone" name="phone" placeholder="Téléphone (optionnel)">
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-12">
-							<div class="form-group">
 								<label class="sr-only" for="message">Message</label>
 								<div class="input-group">
 									<div class="input-group-addon"><i class="fa fa-envelope"></i></div>
@@ -955,14 +923,43 @@
 
 						<div class="col-md-12">
 							<label class="sr-only">Envoyer</label>
-							<button class="btn btn-iconic btn-fill"><i class="fa fa-paper-plane"></i> <span class="btn-md">Envoyer</span></button>
+							<button class="btn btn-iconic btn-fill" type="submit"><i class="fa fa-paper-plane"></i> <span class="btn-md">Envoyer</span></button>
 						</div>
 					</form>
 
-					<div class="col-sm-12">
-						<p class="success-msg">Your Message has been Successfully Sent!</p>
-						<p class="error-msg">Error! Something went wrong!</p>
-					</div>
+					<?php
+//if "email" variable is filled out, send email
+  if (isset($_REQUEST['email']))  {
+  
+  //Email information
+  $admin_email = "contact@expandnetwork.fr";
+  $email = $_REQUEST['email'];
+  $subject = $_REQUEST['subject'];
+  $comment = $_REQUEST['comment'];
+  
+  //send email
+  mail($admin_email, "$subject", $comment, "From:" . $email);
+  
+  //Email response
+  echo "Thank you for contacting us!";
+  }
+  
+  //if "email" variable is not filled out, display the form
+  else  {
+?>
+
+ <form method="post">
+  Email: <input name="email" type="text" /><br />
+  Subject: <input name="subject" type="text" /><br />
+  Message:<br />
+  <textarea name="comment" rows="15" cols="40"></textarea><br />
+  <input type="submit" value="Submit" />
+  </form>
+  
+<?php
+  }
+?>
+
 				</div>
 			</div> <!-- /END SECTION BODY -->
 		</div>
@@ -998,7 +995,7 @@
 						</div>
 
 						<div class="media-body">
-							<p class="title-text">Phone</p>
+							<p class="title-text">Téléphone</p>
 							<p><a href="callto:+0225479336893">03 89 40 89 48</a></p>
 						</div>
 					</div>
@@ -1031,9 +1028,11 @@
 						<br>
 						<div class="social-icon">
 							<ul>
-								<li><a href="index-default.html#"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
-								<li><a href="index-default.html#"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
-								<li><a href="index-default.html#"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a></li>
+								<li><a href="index#"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+								<br>
+								<li><a href="index#"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+								<br>
+								<li><a href="index#"><i class="fa fa-instagram"></i><span>Instagram</span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -1044,8 +1043,8 @@
 							L'univers du vélo dans l'eurométropole
 						</p>
 						<ul>
-							<li><a href="index-default.html#">Promotions</a></li>
-							<li><a href="index-default.html#">Politique de confidentialité</a></li>
+							<li><a href="index#achat">Bons plans</a></li>
+							<li><a href="cgu.html">Mentions légales</a></li>
 						</ul>
 						<div class="subscribe">
 							<form id="subscribe" role="form" novalidate="true">
@@ -1061,7 +1060,7 @@
 			</div>
 		</div>
 	</div> <!-- /END SOCIAL INTARACTION -->
-	<a class="goto" href="index-default.html#home"><i class="fa fa-arrow-up"></i></a>
+	<a class="goto" href="index#home"><i class="fa fa-arrow-up"></i></a>
 </footer>
 <!-- =========================
      SCRIPTS 

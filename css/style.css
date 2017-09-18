@@ -576,7 +576,7 @@ article footer {
   background-size: cover;
 }
 .text-slider-bg .overlay {
-  background: rgba(253, 243, 231, 0.7);
+  background: rgba(253, 243, 231, 0.5);
 }
 .inner-container {
   background: #fe4819;
@@ -1354,7 +1354,6 @@ article footer {
 	list-style: none;
 }
 .footer-bottom .social-icon ul li {
-  display: inline-block;
   margin-right: 20px;
   font-size: 12px;
   font-weight: 700;
