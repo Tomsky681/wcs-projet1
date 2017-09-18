@@ -213,9 +213,9 @@ $(function(){
 */
 new Maplace({
 	locations: [{
-		lat: -33.9158947,
-		lon: 151.1555984,
-		zoom: 16
+		lat: 48.5839200,
+		lon: 7.7455300,
+		zoom: 10
 	}],
 
 	map_options: {
@@ -227,34 +227,6 @@ new Maplace({
 	}
 }).Load();
 
-/*
-|----------------------------------------------------------------------------
-| AJAX SUBSCRIBE
-|----------------------------------------------------------------------------
-*/
-$("#subscribe").ajaxChimp({
-    callback: mailchimpCallback,
-    url: "http://codepassenger.us10.list-manage.com/subscribe/post?u=6b2e008d85f125cf2eb2b40e9&id=6083876991" // Replace your mailchimp post url inside double quote "".  
-});
-
-function mailchimpCallback(resp) {
-     if(resp.result === 'success') {
-        $('.subscribe .success-msg')
-            .html(resp.msg)
-            .delay(500)
-            .fadeIn(1000);
-
-        $('.subscribe .error-msg').fadeOut(500);
-        
-    } else if(resp.result === 'error') {
-        $('.subscribe .error-msg')
-            .html(resp.msg)
-            .delay(500)
-            .fadeIn(1000);
-            
-        $('.subscribe .success-msg').fadeOut(500);
-    }  
-};
 
 /*
 |----------------------------------------------------------------------------
