@@ -1,3 +1,7 @@
+<?php
+	require('checkmail.php');
+	require('sendmail.php');
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -133,7 +137,7 @@
 				</header> <!-- /.section-heading -->
 				
 				<p>Vélotour est une association d'acteurs professionnels qui a pour objectif la promotion de l'utilisation du vélo comme moyen de déplacement à Strasbourg et l'organisation de courses, compétitions et sorties à vélo pour tout public. Par le biais de nos partenaires, nous vous proposons des services d'achat, de location et de réparation de vélos dans toute la métropole.</p>
-				<p>VéloTour n'est pas affilié à la ville et aux collectivités de la ville de Strasbourg.</p>
+				<p><strong>VéloTour n'est pas affilié à l'Eurométropole de Strasbourg.</strong></p>
 			</div> <!-- /END SECTION HEAD -->
 
 			<!-- SECTION BODY -->
@@ -227,7 +231,7 @@
 					<h2 class="title-text">Réparer un vélo</h2>
 				</header> <!-- /.section-heading -->
 				
-				<p>Vous avez la possibilité de louer un vélo pour toutes les activités : déplacement, courses, sorties nature. N'hésitez pas à télécharger notre guide de location ainsi que la liste des partenaires proposant un service de location en libre-service ou auprès d'un loueur.</p>
+				<p>Un problème de frein, de dérailleur ? De la casse ? Nos partenaires vous proposent un service de réparation, un service d'assistance du lundi au samedi et animent des ateliers de réparation toute l'année près de chez vous.</p>
 			</div> <!-- /END SECTION HEAD -->
 
 			<!-- SECTION BODY -->
@@ -244,7 +248,7 @@
 					<h2 class="title-text">Louer un vélo</h2>
 				</header> <!-- /.section-heading -->
 				
-				<p>Un problème de frein, de dérailleur ? De la casse ? Nos partenaires vous proposent un service de réparation, un service d'assistance du lundi au samedi et animent des ateliers de réparation toute l'année dans différents lieux.</p>
+				<p>Vous avez la possibilité de louer un vélo pour toutes les activités : déplacement, courses, sorties nature. N'hésitez pas à télécharger notre guide de location ainsi que la liste des partenaires proposant un service de location en libre-service ou auprès d'un loueur.</p>
 			</div> <!-- /END SECTION HEAD -->
 
 			<!-- SECTION BODY -->
@@ -262,7 +266,7 @@
 		<div class="row">
 			<header class="section-heading text-center">
 				<h2 class="title-text">Sport & compétitions</h2>
-				<p>Tour de Strasbourg, courses pas étapes, seul ou à plusieurs, testez votre rapidité et votre endurance à travers de nombreuses courses organisez par la ville et diverses structures dans le domaine du vélo. Découvrez depuis la section "événements" toutes les épreuves à venir !</p>
+				<p>Tour de Strasbourg, courses par étapes, seul ou à plusieurs, testez votre rapidité et votre endurance à travers de nombreuses courses organisées par la ville et diverses structures dans le domaine du vélo. Découvrez depuis la section "Événements" toutes les épreuves à venir !</p>
 
 			</header> 
 		</div>
@@ -278,7 +282,7 @@
 					<h2 class="title-text">Les événements</h2>
 				</header> 
 
-				<p>Participez aux nombreux événements autout du vélo dans l'eurométropole de Strasbourg</p>
+				<p>Participez aux nombreux événements autour du vélo dans l'Eurométropole de Strasbourg.</p>
 			</div> 
 
 			<div class="col-md-8">
@@ -323,7 +327,7 @@
 					<h2 class="title-text">Sponsors</h2>
 				</header> <!-- /.section-heading -->
 
-				<p>Ils sont partenaires et sponsors et travaillent avec VeloTour</p>
+				<p>Ils sont partenaires, sponsors et travaillent avec VéloTour.</p>
 			</div> <!-- /END SECTION HEAD -->
 
 			<!-- SECTION BODY -->
@@ -394,41 +398,44 @@
 					<h2 class="title-text">Contact</h2>
 				</header> <!-- /.section-heading -->
 
-				<p>Contactez-nous facilement et obtenez une réponse en moins de 24h !</p>
+				<p>Contactez-nous facilement et obtenez une réponse sous 24h !</p>
 			</div> <!-- /END SECTION HEAD -->
 
 			<!-- SECTION BODY -->
 			<div class="mb-30 col-md-9">
 				<div class="row contact-form">
 
-
-					<form id="contact-form" role="form" method="post">
+<?php
+	if(($_POST == NULL) || count($erreurs) > 0)
+	{
+?>
+					<form role="form" method="post" action="index.php#contact">
 						<div class="col-md-6">
 							<div class="form-group">
-								<label class="sr-only" for="name">Nom complet</label>
+								<label class="sr-only" for="name">Nom complet</label><?php if(isset($erreurs['nom'])) echo ' <span style="color:red;">'.$erreurs['nom'].'</span>'; else echo "Nom"; ?>
 								<div class="input-group">
 									<div class="input-group-addon"><i class="fa fa-user"></i></div>
-							   	<input type="text" class="form-control" id="name" name="identite" placeholder="Nom complet" required="required">
+							   	<input type="text" class="form-control" id="name" name="nom" value="<?php if(isset($_POST['nom'])) echo $_POST['nom']; ?>" placeholder="Nom complet" required="required">
 								</div>
 							</div>
 						</div>
 
 						<div class="col-md-6">
 							<div class="form-group">
-								<label class="sr-only" for="name">Adresse Email</label>
+								<label class="sr-only" for="name">Adresse Email</label><?php if(isset($erreurs['email'])) echo ' <span style="color:red;">'.$erreurs['email'].'</span>'; else echo "Email"; ?>
 								<div class="input-group">
 									<div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-							   	<input type="email" class="form-control" id="email" name="email" placeholder="Adresse Email" required="required">
+							   	<input type="email" class="form-control" id="email" name="email" value="<?php if(isset($_POST['email'])) echo $_POST['email']; ?>" placeholder="Adresse Email" required="required">
 								</div>
 							</div>
 						</div>
 
 						<div class="col-md-12">
 							<div class="form-group">
-								<label class="sr-only" for="message">Message</label>
+								<label class="sr-only" for="message">Message</label><?php if(isset($erreurs['message'])) echo ' <span style="color:red;">'.$erreurs['message'].'</span>'; else echo "Message"; ?>
 								<div class="input-group">
 									<div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-							   	<textarea class="form-control" id="message" name="message" placeholder="Votre message" message" rows="4" required="required"></textarea>
+							   	<textarea class="form-control" id="message" name="message" placeholder="Votre message" rows="4" required="required"><?php if(isset($_POST['message'])) echo $_POST['message']; ?></textarea>
 								</div>
 							</div>
 						</div>
@@ -438,6 +445,14 @@
 							<button class="btn btn-iconic btn-fill" type="submit"><i class="fa fa-paper-plane"></i> <span class="btn-md">Envoyer</span></button>
 						</div>
 					</form>
+<?php
+	}
+	else {
+
+		echo "Bonjour $nom !<br/>Votre message a bien été envoyé !";
+
+	}
+?>
 
 				</div>
 			</div> <!-- /END SECTION BODY -->
@@ -464,7 +479,8 @@
 
 						<div class="media-body">
 							<p class="title-text">Adresse</p>
-							<p>Rue des Corps de Garde <br> Strasbourg, Alsace</p>
+							<p>Rue des Corps de Garde <br>
+							67100 Strasbourg, Alsace</p>
 						</div>
 					</div>
 
@@ -475,7 +491,7 @@
 
 						<div class="media-body">
 							<p class="title-text">Téléphone</p>
-							<p><a href="callto:+0225479336893">03 89 40 89 48</a></p>
+							<p><a href="callto:0389408948">03 89 40 89 48</a></p>
 						</div>
 					</div>
 
@@ -486,7 +502,7 @@
 
 						<div class="media-body">
 							<p class="title-text">Email</p>
-							<p><a href="mailto:hi5@anwar.im">info@velotour.com</a></p>
+							<p><a href="mailto:info@velotour.com">info@velotour.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -507,11 +523,11 @@
 						<br>
 						<div class="social-icon">
 							<ul>
-								<li><a href="index#"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+								<li><a href="https://www.facebook.com/wildcodeschool/" target="_blank"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
 								<br>
-								<li><a href="index#"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+								<li><a href="https://twitter.com/WildCodeSchool" target="_blank"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
 								<br>
-								<li><a href="index#"><i class="fa fa-instagram"></i><span>Instagram</span></a></li>
+								<li><a href="https://www.instagram.com/wildcodeschool/" target="_blank"><i class="fa fa-instagram"></i><span>Instagram</span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -519,11 +535,11 @@
 				<div class="col-md-7" style=" left: 11px; ">
 					<div class="footer-right">
 						<p>
-							L'univers du vélo dans l'eurométropole
+							L'univers du vélo dans l'Eurométropole
 						</p>
 						<ul>
 							<li><a href="#achat">Bons plans</a></li>
-							<li><a href="cgu">Mentions légales</a></li>
+							<li><a href="cgu.php">Mentions légales</a></li>
 						</ul>
 
 						<!--
@@ -536,13 +552,13 @@
 							</form>
 						</div>
 						-->
-						<p class="copyright">&copy; 2017 VeloTour - By <a href="#">Wild Code School Strasbourg</a></p>
+						<p class="copyright">&copy; 2017 VéloTour - By <a href="#">Wild Code School Strasbourg</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div> <!-- /END SOCIAL INTARACTION -->
-	<a class="goto" href="index#home"><i class="fa fa-arrow-up"></i></a>
+	<a class="goto" href=""><i class="fa fa-arrow-up"></i></a>
 </footer>
 <!-- =========================
      SCRIPTS 
@@ -564,6 +580,7 @@
 <script src="js/maplace-0.1.3.min.js"></script>
 <script src="js/custom.js"></script>
 
+<!--
 <script type="text/javascript">
 	$(document).on('click', 'a', function(event){
     event.preventDefault();
@@ -573,6 +590,7 @@
     }, 500);
 });
 </script>
+-->
 
 
 </body>

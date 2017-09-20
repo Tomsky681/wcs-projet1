@@ -75,7 +75,7 @@
 
 			<div class="collapse navbar-collapse" id="my-navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index">Retourner sur le site </a></li>
+					<li><a href="index.php">Retourner sur le site </a></li>
 				</ul>
 			</div>
 		</div>

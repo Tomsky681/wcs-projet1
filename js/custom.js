@@ -102,26 +102,6 @@ $("#contact-form").on('submit', function(e) {
 });
 
 
-
-/*
-|----------------------------------------------------------------------------
-| CONTACT FORM ANIMATION
-|----------------------------------------------------------------------------
-*/
-var inputBox = $('.form-control');
-
-$(inputBox).on({
-	focus: function() {
-	   $(this).closest('.input-group').addClass('active');
-	},
-
-	blur: function() {
-   	$(this).closest('.input-group').removeClass('active');
-	}
-});
-
-
-
 /*
 |----------------------------------------------------------------------------
 | CAROUSEL
