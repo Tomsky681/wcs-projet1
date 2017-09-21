@@ -43,7 +43,7 @@ $contenu				= "
 		<p>Bonjour $nom,</p>
 		<p>Le message suivant a été adressé à l'équipe de VéloTour.</p>
 		<p>".str_replace("\r\n", '<br>', $message)."</p>
-		<p>Bien à vous, l'équipe VéloTour.</p>
+		<p>Bien à vous, l'équipe VéloTour.<br><br><img width=\"150\" src=\"https://get.nosheep.fr/pic/velotour-logo-color.png\" alt=\"Logo VeloTour\"></p>
 	</body>
 </html>
 ";
