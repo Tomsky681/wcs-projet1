@@ -1,6 +1,5 @@
 <?php
 	require('checkmail.php');
-	require('sendmail.php');
 ?>
 <!doctype html>
 <html lang="fr">
@@ -448,9 +447,8 @@
 <?php
 	}
 	else {
-
-		echo "Bonjour $nom !<br/>Votre message a bien été envoyé !";
-
+		include('sendmail.php');
+		echo "Bonjour $nom !<br/>Votre message a bien été envoyé !<br/>Un récapitulatif vous a été adressé à l'adresse suivante : <strong>$email</strong>";
 	}
 ?>
 
