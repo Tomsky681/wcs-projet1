@@ -76,8 +76,8 @@
 				</button>
 
 				<!-- TEMPLATE LOGO -->
-				<a class="navbar-brand" href="index#">
-					<img src="images/logo.png" alt="Mountain Biking">
+				<a class="navbar-brand" href="#home">
+					<img src="images/logo-color.png" alt="Mountain Biking" width="60%">
 				</a>
 			</div>
 
@@ -111,11 +111,9 @@
 				<!-- ABOUT US LEFT HALF -->
 				<div class="col-md-4 base-background">
 					<div class="content">
-						<a class="template-brand" href="index#">
-							<img src="images/logo.png" alt="Mountain Biking">
-						</a>
-
-						<h1>VÉLOTOUR</h1>
+						<div style="margin-bottom: 20px">
+							<img src="images/logo-white.png" alt="Mountain Biking">
+						</div>
 						<p class="sub-heading">LE MONDE DU VÉLO DANS L'EUROMÉTROPOLE DE STRASBOURG</p>
 						<p><a href="#a-propos" class="btn btn-trans btn-md">Découvrir VéloTour</a></p>
 					</div>
@@ -578,17 +576,37 @@
 <script src="js/maplace-0.1.3.min.js"></script>
 <script src="js/custom.js"></script>
 
-<!--
 <script type="text/javascript">
-	$(document).on('click', 'a', function(event){
-    event.preventDefault();
-
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
-});
+$('a[href*="#"]')
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { 
+            return false;
+          } else {
+            $target.attr('tabindex','-1');
+            $target.focus(); 
+          };
+        });
+      }
+    }
+  });
 </script>
--->
+
 
 
 </body>
